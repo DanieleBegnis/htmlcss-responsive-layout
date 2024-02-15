@@ -30,6 +30,9 @@ body {
 .btn-blue .fa-brands {
     color: #fff;
 }
+.btn-purple {
+    background-color: #9792e4;
+}
 .card-blue {
     background-color: #b5ddff;
 }
@@ -149,7 +152,10 @@ header .fa-solid {
     width: 50%;
 }
 .strategy img {
-    width: 100%;
+    width: 80%;
+}
+.strategy .card {
+    color: #000;
 }
 /*-------------------
     MEDIA QUEARY
