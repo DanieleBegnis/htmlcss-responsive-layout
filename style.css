@@ -13,5 +13,77 @@
 body {
     font-family: "PT Sans", sans-serif;
 }
+.btn {
+    background-color: transparent;
+    padding: 4px;
+    border: none;
+    border-radius: 20px;
+}
+.btn-white {
+    background-color: #fff;
+    color: #000;
+}
 
+/*-------------------
+    GENERAL
+-------------------*/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.column {
+    padding: 0 10px;
+}
 
+/*-------------------
+    HEADER
+-------------------*/
+header {
+    background-color: #0084fd;
+    padding: 12px 0;
+}
+header .row {
+    justify-content: space-between;
+}
+header .column {
+    width: 50%;
+}
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-nav ul {
+    display: flex;
+    list-style: none;
+}
+.header-nav li {
+    padding: 0 20px;
+}
+.header-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+header .fa-solid {
+    color: #fff;
+    display: none;
+}
+
+/*-------------------
+    MEDIA QUEARY
+-------------------*/
+@media screen and (max-width: 992px) {
+    header .fa-solid {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header-nav {
+        display: none;
+    }
+}
