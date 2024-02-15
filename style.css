@@ -27,6 +27,9 @@ body {
     background-color: #0084fd;
     color: #fff;
 }
+.btn-blue .fa-brands {
+    color: #fff;
+}
 
 /*-------------------
     GENERAL
@@ -100,9 +103,29 @@ header .fa-solid {
 }
 .demo h4 {
     color: #0084fd;
+    margin: 22px 10px;
 }
-.btn-blue .fa-brands {
-    color: #fff;
+.demo p {
+    margin: 22px 10px;
+    text-align: center;
+}
+.demo button {
+    margin: 22px 10px;
+}
+.demo .card .column {
+    width: 50%;
+}
+.demo img {
+    width: 80%;
+}
+.demo .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.demo .card .fa-solid {
+    color: #0084fd;
 }
 /*-------------------
     MEDIA QUEARY
@@ -118,6 +141,9 @@ header .fa-solid {
 }
 @media screen and (max-width: 768px) {
     .demo .column {
+        width: 100%;
+    }
+    .demo .card .column {
         width: 100%;
     }
 }
