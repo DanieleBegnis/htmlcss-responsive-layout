@@ -104,10 +104,12 @@ header .fa-solid {
 .demo h4 {
     color: #0084fd;
     margin: 22px 10px;
+    font-size: 20px;
 }
 .demo p {
     margin: 22px 10px;
     text-align: center;
+    
 }
 .demo button {
     margin: 22px 10px;
@@ -123,6 +125,7 @@ header .fa-solid {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 16px;
 }
 .demo .card .fa-solid {
     color: #0084fd;
