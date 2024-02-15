@@ -30,7 +30,12 @@ body {
 .btn-blue .fa-brands {
     color: #fff;
 }
-
+.card-blue {
+    background-color: #b5ddff;
+}
+.card-white {
+    background-color: #fff;
+}
 /*-------------------
     GENERAL
 -------------------*/
@@ -52,6 +57,10 @@ body {
 }
 .column {
     padding: 0 10px;
+}
+.card {
+    border-radius: 20px;
+    height: 100%;
 }
 
 /*-------------------
@@ -101,11 +110,6 @@ header .fa-solid {
 .demo .column-grow {
     flex-grow: 1;
 }
-.card {
-    background-color: #b5ddff;
-    border-radius: 20px;
-    height: 100%;
-}
 .demo h4 {
     color: #0084fd;
     margin: 22px 10px;
@@ -139,6 +143,7 @@ header .fa-solid {
 /* STRATEGY */
 .strategy {
     background-color: #9792e4;
+    color: #fff;
 }
 .strategy .column {
     width: 50%;
