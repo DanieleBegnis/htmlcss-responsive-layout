@@ -23,6 +23,10 @@ body {
     background-color: #fff;
     color: #000;
 }
+.btn-blue {
+    background-color: #0084fd;
+    color: #fff;
+}
 
 /*-------------------
     GENERAL
@@ -93,6 +97,12 @@ header .fa-solid {
     background-color: #b5ddff;
     border-radius: 20px;
     height: 100%;
+}
+.demo h4 {
+    color: #0084fd;
+}
+.btn-blue .fa-brands {
+    color: #fff;
 }
 /*-------------------
     MEDIA QUEARY
