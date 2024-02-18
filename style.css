@@ -39,6 +39,12 @@ body {
 .card-white {
     background-color: #fff;
 }
+.card-purple {
+    background-color: #9792e4;
+}
+.text-center {
+    text-align: center;
+}
 /*-------------------
     GENERAL
 -------------------*/
@@ -156,6 +162,40 @@ header .fa-solid {
 }
 .strategy .card {
     color: #000;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background-color: #fff;
+}
+.subtitle {
+    text-align: center;
+}
+.subtitle h4 {
+    margin: 20px 0;
+}
+.subtitle h2 {
+    color: #9792e4;
+    font-size: 36px;
+    margin: 20px 0;
+}
+.subtitle p {
+    margin-bottom: 20px;
+}
+.testimonials .card-purple {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.column-img {
+    width: 15%;
+} 
+.testimonials img {
+    width: 100%;
+    border-radius: 100%;
+}
+.column-text {
+    width: 85%;
 }
 /*-------------------
     MEDIA QUEARY
