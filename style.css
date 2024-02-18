@@ -315,6 +315,9 @@ footer {
     color: #fff;
     text-align: center;
 }
+footer p {
+    padding: 28px 0;
+}
 /*-------------------
     MEDIA QUEARY
 -------------------*/
