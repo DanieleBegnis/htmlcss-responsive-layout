@@ -186,16 +186,31 @@ header .fa-solid {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    margin: 16px 0;
 }
 .column-img {
-    width: 15%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 } 
 .testimonials img {
     width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 .column-text {
-    width: 85%;
+    width: 80%;
+}
+.column-text p {
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.column-text h4 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 /*-------------------
     MEDIA QUEARY
@@ -215,5 +230,11 @@ header .fa-solid {
     }
     .demo .card .column {
         width: 100%;
+    }
+    .testimonials .column {
+        width: 100%;
+    }
+    .testimonials .column img {
+        width: 30%;
     }
 }
